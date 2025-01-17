@@ -1,0 +1,32 @@
+/* YourComponent.css */
+
+.custom-hover-card {
+    height: 100%; /* Set a fixed height for the card */
+  }
+  
+  .custom-hover-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .custom-hover-card .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .heart-icon{
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .heart-icon.favorite {
+    color: red;
+  }
+  #Watch_Now_btn:hover{
+    background-color: #0b3e8a;
+    border-color: #0b3e8a;
+  }
